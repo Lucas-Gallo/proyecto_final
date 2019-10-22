@@ -1,0 +1,296 @@
+
+
+.parrafos1 {
+	color: black;
+	font-size: 25px;
+	letter-spacing: 1px;
+	line-height: : 15px;
+	text-align: center;	
+	font-family: 'Indie Flower', cursive;			
+}
+
+.parrafos2 {
+	color: black;
+	font-family: 'Permanent Marker', cursive;
+	font-size: 15px;
+	background-color: #BEFEAC;
+}	
+
+header { 
+	font-family: 'Quicksand', sans-serif;
+	text-align: center;	
+	background-color: #BEFEAC		
+ }
+
+caption {
+ 	font-family: 'Quicksand', sans-serif;
+ 	text-align: center;	
+	background-color: #BEFEAC;
+	border: 5px solid #34C20C;
+ }
+
+table {
+	align-content: right;
+}
+.titprincipal {
+	border: 5px solid #34C20C;
+}
+
+.registrate {
+  width: 300px; 
+  padding: 40px 0px 15px 25px;
+  font-family: 'Indie Flower', cursive;
+  font-size: 20px;
+  color: black; 
+}
+
+.registrate:hover {
+	background-color: #34C20C;
+}
+/* The navigation menu */
+.menu {
+  overflow: hidden;
+  background-color: #BEFEAC;
+  width: 729px;
+  border: 2px solid #34C20C;	
+}
+
+/* Navigation links */
+.menu a {
+  float: left;
+  font-size: 18px;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Indie Flower', cursive;
+}
+
+/* The subnavigation menu */
+.submenu {
+  float: left;
+  overflow: hidden;
+}
+
+/* Subnav button */
+.submenubtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: 'Indie Flower', cursive;
+  margin: 0;
+}
+
+/* Add a red background color to navigation links on hover */
+.menu a:hover, .submenu:hover .submenubtn {
+  background-color: #34C20C;
+}
+
+/* Style the subnav content - positioned absolute */
+.submenu-contenido {
+  display: none;
+  position: absolute;
+  background-color: #34C20C;
+  width: 13%;
+  z-index: 1;
+}
+
+/* Style the subnav links */
+.submenu-contenido a {
+  float: none;
+  color: black;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  padding: 12px 16px;
+}
+.lista {
+  clear:left;
+  list-style: none;
+  text-decoration: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+
+/* Add a grey background color on hover */
+.submenu-contenido a:hover {
+  background-color: #eee;
+  color: black;
+}
+
+/* When you move the mouse over the subnav container, open the subnav content */
+.submenu:hover .submenu-contenido {
+  display: block;
+}
+
+.tittabla {
+	font-family: 'Quicksand', sans-serif;
+	text-align: center;
+	background-color: #BEFEAC;
+}
+
+.h2 {
+	font-family: 'Quicksand', sans-serif;
+ 	text-align: center;	
+	background-color: #BEFEAC;
+	border: 5px solid #34C20C;
+}
+
+.h3 {
+	font-family: 'Quicksand', sans-serif;
+ 	text-align: left;	
+}
+
+.colacion {
+	font-family: 'Quicksand', sans-serif;
+ 	text-align: center;
+}
+
+.flex {
+	display: flex;
+	flex-direction: row;
+}
+
+.flex2 {
+	display: flex;
+	justify-content: space-around;
+}
+
+.joserevenga {
+	border: 2px solid black;
+	width: 300px;
+	height: 2065px;
+	overflow: scroll;
+	margin: 0px 100px 0px 100px;
+	color: black;
+	font-family: 'Permanent Marker', cursive;
+	font-size: 15px;
+	background-color: #BEFEAC;		
+}
+
+.form {
+	font-family: 'Quicksand', sans-serif;
+	text-align: center;
+	background:  linear-gradient(to top, #BEFEAC, #134C03);
+	width: 500px;
+	height: 500px;
+}
+
+footer {
+	background: linear-gradient(270deg, #BEFEAC, #134C03);
+	margin-top: 20px;
+	margin-bottom: 0px;
+	padding-bottom: 15px;
+
+}
+
+.divpie1 {
+	
+	font-family: 'Quicksand', sans-serif;
+	color: white;
+	width: 750px;
+	float: left;
+	margin-left: 300px;
+	margin-top: 15px;
+}
+
+
+.divpie2 {
+	
+	font-family: 'Quicksand', sans-serif;
+	color: white;
+}
+
+.pie {
+	background-color: black;
+	font-family: 'Quicksand', sans-serif;
+}
+
+@keyframes section1{
+	  0%{ width: 0px; }
+      25%{ width: 25px;
+      background-color: grey; }
+      50%{ width: 50px;
+      background-color: #93BB87; }
+      75%{ width: 75px;}
+      100%{ width: 96px;
+      background-color:#8EBD80;}
+}
+
+@keyframes section2{
+	  0%{ width: 0px; }
+      25%{ width: 30px;
+      background-color: grey; }
+      50%{ width: 60px;
+      background-color: #8EBD80; }
+      75%{ width: 90px;}
+      100%{ width: 126px;
+      background-color:#6DC054;}
+}
+
+@keyframes section3{
+	  0%{ width: 0px; }
+      25%{ width: 40px;
+      background-color:#8EBD80;  }
+      50%{ width: 90px;
+      background-color: #6DC054; }
+      75%{ width: 120px;}
+      100%{ width: 168px;
+      background-color:#3DC215;}
+}
+
+.section1{
+ width: 100px;
+ height: 30px;
+ font-family: 'Quicksand', sans-serif;
+ animation-name: section1;
+ animation-iteration-count: infinite;
+ animation-timing-function: ease-in;
+ animation-duration: 5s;
+ animation-delay: 0s;
+}
+     
+.section2{
+ width: 100px;
+ height: 30px;
+ font-family: 'Quicksand', sans-serif;
+ animation-name: section2;
+ animation-iteration-count: infinite;
+ animation-timing-function: ease-in;
+ animation-duration: 5s;
+ animation-delay: 0s;
+}
+
+.section3{
+ width: 100px;
+ height: 30px;
+ font-family: 'Quicksand', sans-serif;
+ animation-name: section3;
+ animation-iteration-count: infinite;
+ animation-timing-function: ease-in;
+ animation-duration: 5s;
+ animation-delay: 0s;
+}
+
+.divsection {
+	border: 2px solid black;
+	font-family: 'Quicksand', sans-serif;
+	padding: 20px;
+	background:  linear-gradient(to top, #BEFEAC, #134C03);
+	width: 250px;
+}
+
+
+.button {
+   width: 100px;
+   height: 100px;
+   background: green;
+   transition: width 10s;
+}
+.button:hover {
+   width: 200px;
+}
